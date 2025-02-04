@@ -30,7 +30,7 @@ const Hero = () => {
                My Name is Prakash Konga  and  have 3 years of Eperience in Web Development
             </p>  
 
-            <div data-aos="fade-down" className="my-8">
+            <div data-aos="fade-down" className="my-8 md:flex sm:block">
                  <a href='/' className='px-6 py-3 w-full rounded-xl mr-4 bg-gradient-to-br from-greenyellow-500 to-green-500 text-2xl'>Download CV</a>
                  <a href='#contact' className='px-6 py-3 bg-green-500 w-full rounded-xl mr-4 border border-green-500 hover:bg-gradient-to-br from-green-500 to-blue-300 text-white hover:border-none text-2xl'>Contact</a>           
             </div>        

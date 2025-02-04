@@ -20,9 +20,9 @@ const Navbar = () => {
             {nav ? <AiOutlineClose size={30}/> : <AiOutlineMenu size={30}/>}
         </div>
 
-        <div className={nav ? 'fixed h-full left-0 top-0 w-[60%] bg-[#202121] ease-in-out duration-500':'fixed left-[-100%]'}>
+        <div className={nav ? 'fixed h-full left-0 top-0 w-[50%] bg-[#202121] ease-in-out duration-500 z-[100000]':'fixed left-[-50%]'}>
             <h1 className='text-3xl text-green-500 m-4'>Prakash</h1>
-            <AiOutlineClose className="absolute top-2 right-2 text-green-600 text-3xl  ease-in-out duration-500" onClick={handleNav}/>
+            <AiOutlineClose className="absolute top-2 right-2 text-white-600 text-3xl  ease-in-out duration-500" onClick={handleNav}/>
             <ul className='p-8 text-2xl'>
                
                 <li className='p-2'><a href='#about'>About</a></li>

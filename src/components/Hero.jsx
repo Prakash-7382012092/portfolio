@@ -27,7 +27,7 @@ const Hero = () => {
                             
             </h1>  
             <p data-aos="fade-down" className='text-green text-2xl sm:text-lg my-6 lg:text-xl'>
-               My Name is Prakash Konga  and  have 3.5 years of Eperience in Web Development
+               My Name is Prakash Konga  and  have 3 years of Eperience in Web Development
             </p>  
 
             <div data-aos="fade-down" className="my-8">

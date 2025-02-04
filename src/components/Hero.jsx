@@ -1,7 +1,7 @@
 import React from 'react'
 import heroImage from '../assets/prakash.png';
 import { TypeAnimation } from 'react-type-animation';
-import '/hero.css';
+
 const Hero = () => {
   return (
     <div data-aos="zoom-in-right"  className='grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-[1200px] md:h-[70vh] mx-auto py-8 bg-green'>
@@ -32,7 +32,7 @@ const Hero = () => {
 
             <div data-aos="fade-down" className="my-8 md:flex sm:block">
                  <div><a href='/' className='px-6 py-3 w-full rounded-xl mr-4 bg-gradient-to-br from-greenyellow-500 to-green-500 text-2xl'>Download CV</a></div>
-                <div className='but sm:mt-[50px]'> <a href='#contact' className='px-6 py-3 bg-green-500 w-full rounded-xl mr-4 border border-green-500 hover:bg-gradient-to-br from-green-500 to-blue-300 text-white hover:border-none text-2xl'>Contact</a> </div>      
+                <div className='but sm:mt-[50px]' style={{marginTop:"60px"}}> <a href='#contact' className='px-6 py-3 bg-green-500 w-full rounded-xl mr-4 border border-green-500 hover:bg-gradient-to-br from-green-500 to-blue-300 text-white hover:border-none text-2xl'>Contact</a> </div>      
             </div>        
         </div>
     </div>

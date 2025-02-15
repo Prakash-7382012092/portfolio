@@ -1,4 +1,12 @@
 import React from 'react'
+import { CgMailForward } from 'react-icons/cg'
+import { GiMailbox } from 'react-icons/gi'
+import { MdEmail } from 'react-icons/md'
+import "./contact.css";
+import { BiPhone } from 'react-icons/bi';
+import { FaWhatsapp } from 'react-icons/fa';
+import { BsGithub, BsInstagram } from 'react-icons/bs';
+import { LiaLinkedin } from 'react-icons/lia';
 
 const Contact = () => {
   return (
@@ -9,38 +17,20 @@ const Contact = () => {
         <div className='max-w[800px] mx-auto'>
             <div className='max-w-[800px] mx-auto'>
                 <div className='mt-6 bg-green-900 rounded-xl'>
-                    <div className="p-10">
-                        <form action='' method='POST'>
-                            <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-5 gap-y-4">
-                                <div>
-                                    <div className="mt-2 5 relative">
-                                        <input type='text' name='' id='' data-aos="fade-left" placeholder='Enter Your Name' class="bg-green-300 w-full px-4 py-4 text-blue-600 placeholder-gray-500 border-gray-5000 rounded-md focus:outline-none focus:border-pink-600"/>
-                                    </div>
-
-                                    <div className="mt-2 5 relative">
-                                        <input type='email' name='' id='' data-aos="fade-left" placeholder='Enter Your Email' class="bg-green-300 w-full px-4 py-4 text-blue-600 placeholder-gray-500 border-gray-5000 rounded-md focus:outline-none focus:border-pink-600"/>
-                                    </div>
-
-                                    <div className="sm:col-span-2">
-                                        <div className="mt-2 5">
-                                            <textarea name='' id='' data-aos="fade-left"  placeholder='Your Message' className='w-full px-4 py-4 bg-green-300 text-blue-700 placeholder-gray-400 border border-green-500 rounded-md focus:outline-none focus:border-green-600' rows="4"></textarea>
-                                        </div>
-                                    </div>
-
-                                    <div className='sm:col-span-2'>
-                                        <button type="submit" data-aos="zoom-in" className="text-xl w-full p-4 mt-2 font-semibold text-white-800 bg-green-500 rounded-md">Send</button>
-                                    </div>
-
-                                    
-
-
-
-                                    
-
-                                </div>
-                            </div>
-                        </form>
-                    </div>
+                    <center>
+                    <table className='table table-centered table-responsive table-bordered table-stripped p-6'>
+                        <br/>
+                        <tr data-aos="fade-up"> <th>Gmail</th><td> <span className='ml-[40px]'><a href="mailto:prakash7382012092@gmail.com"><MdEmail /></a></span></td></tr>
+                        <tr data-aos="fade-in"> <th>Phone</th><td> <span className='ml-[40px]'><a href="tel:+917382012092"><BiPhone /></a></span></td></tr>
+                        <tr data-aos="zoom-in"> <th>Whats App</th><td> <span className='ml-[40px]'><a href="https://wa.me/917382012092?text=Hi%20Prakash" target="_blank"> <FaWhatsapp /></a></span></td></tr>
+                        <tr data-aos="zoom-out"> <th>Linked in</th><td> <span className='ml-[40px]'><a href="https://www.linkedin.com/in/prakash-k-996874143/" target="_blank"> <LiaLinkedin /></a></span></td></tr>
+                        <tr data-aos="fade-in"> <th>Github </th><td> <span className='ml-[40px]'><a href="https://github.com/Prakash-7382012092" target="_blank"> <BsGithub /></a></span></td></tr>
+                        <tr data-aos="fade-up"> <th>Instagram</th><td> <span className='ml-[40px]'><a href="https://www.instagram.com/prakash_k73/" target="_blank"> <BsInstagram /></a></span></td></tr>
+                        <br/>
+                       
+                    </table>
+                    </center>
+                    
 
                 </div>
             </div>

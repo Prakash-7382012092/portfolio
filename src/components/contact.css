@@ -1,0 +1,24 @@
+.flex{
+    display: flex !important;
+}
+.table{
+    color: white !important;
+    justify-content: center !important;
+    place-content: center !important;
+    align-items: center !important;
+    place-items: center !important;
+ 
+}
+table th{
+    font-size: 40px !important;
+    font-weight: 100;
+}
+table td span a {
+    font-size: 40px;
+   
+}
+table td span a svg{
+    margin-top: -50px !important;
+    margin-left: 25px !important;
+}
+

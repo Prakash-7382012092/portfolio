@@ -1,3 +1,6 @@
-.but{
-    margin-top: 60px !important;
+@media (max-width: 576px) { 
+    .but{
+        margin-top: 60px !important;
+    }
 }
+

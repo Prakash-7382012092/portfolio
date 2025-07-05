@@ -15,11 +15,11 @@ const Hero = () => {
                     I`m  a                    
                 </span>   <br/>
                 <TypeAnimation sequence={[
-                    "PHP Full Stack",
+                    "PHP LARAVEL CI",
                     1000,
-                    "React Desinger",
+                    "React Redux Vue Vuex",
                     1000,
-                    "PHP,Laravel,React"
+                    "MYSQL, POSTGRES SQL"
                 ]}
                 wrapper="span"
                 speed={50}
@@ -28,7 +28,7 @@ const Hero = () => {
                             
             </h1>  
             <p data-aos="fade-down" className='text-green text-2xl sm:text-lg my-6 lg:text-xl'>
-               My Name is Prakash Konga  and  have 3 years of Eperience in Web Development
+               My Name is Prakash Konga  and  have 4 years of Eperience in Web Development
             </p>  
 
             <div data-aos="fade-down" className="my-8 md:flex sm:block">

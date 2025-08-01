@@ -15,9 +15,9 @@ const Hero = () => {
                     I`m  a                    
                 </span>   <br/>
                 <TypeAnimation sequence={[
-                    "PHP LARAVEL CI",
+                    "PHP LARAVEL",
                     1000,
-                    "React Redux Vue Vuex",
+                    "ReactJs VueJS",
                     1000,
                     "MYSQL, POSTGRES SQL"
                 ]}

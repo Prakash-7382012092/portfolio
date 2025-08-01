@@ -25,11 +25,12 @@ const Hero = () => {
                 speed={50}
                 repeat={Infinity}
                 />
+               <span className='primary-color'>
+                   Developer                  
+                </span>  
                     
             </h3>  
-            <span className='primary-color'>
-                   Develo                  
-                </span>  
+           
                         
             <p data-aos="fade-down" className='text-green text-2xl sm:text-lg my-6 lg:text-xl'>
                My Name is Prakash Konga  & I have 4 years of Eperience in Web Development

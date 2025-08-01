@@ -24,7 +24,7 @@ const Hero = () => {
                 wrapper="span"
                 speed={50}
                 repeat={Infinity}
-                />
+                />  <br/>
                <span className='primary-color'>
                    Developer                  
                 </span>  

@@ -28,7 +28,7 @@ const Hero = () => {
                     
             </h3>  
             <span className='primary-color'>
-                   Developer                   
+                   Develo                  
                 </span>  
                         
             <p data-aos="fade-down" className='text-green text-2xl sm:text-lg my-6 lg:text-xl'>

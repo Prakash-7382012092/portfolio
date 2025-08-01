@@ -10,7 +10,7 @@ const Hero = () => {
                 <img src={heroImage}  data-aos="fade-up" alt='prakash' className='h-[300px] rounded-[10px] border-[2px] border-green-500'/>            
         </div>
         <div data-aos="fade-down" className='col-span-2 px-5 my-auto'>
-            <h1 className='text-green-700 text-4xl sm:text-5xl lg:text-8xl font-extrabold'>
+            <h3 className='text-green-700 text-4xl sm:text-5xl lg:text-8xl font-extrabold'>
                 <span className='primary-color'>
                     I`m  a                    
                 </span>   <br/>
@@ -25,15 +25,19 @@ const Hero = () => {
                 speed={50}
                 repeat={Infinity}
                 />
-                            
-            </h1>  
+                    
+            </h3>  
+            <span className='primary-color'>
+                   Developer                   
+                </span>  
+                        
             <p data-aos="fade-down" className='text-green text-2xl sm:text-lg my-6 lg:text-xl'>
-               My Name is Prakash Konga  and  have 4 years of Eperience in Web Development
+               My Name is Prakash Konga  & I have 4 years of Eperience in Web Development
             </p>  
 
             <div data-aos="fade-down" className="my-8 md:flex sm:block">
-                 <div><a href='/' className='px-6 py-3 w-full rounded-xl mr-4 bg-gradient-to-br from-greenyellow-500 to-green-500 text-2xl'>Download CV</a></div>
-                <div className='but '> <a href='#contact' className='px-6 py-3 bg-green-500 w-full rounded-xl mr-4 border border-green-500 hover:bg-gradient-to-br from-green-500 to-blue-300 text-white hover:border-none text-2xl'>Contact</a> </div>      
+             
+                <div className='but '> <a href='#contact' className='px-6 py-3 w-full rounded-xl mr-4 bg-gradient-to-br from-greenyellow-500 to-green-500 text-2xl'>Contact Me</a> </div>      
             </div>        
         </div>
     </div>

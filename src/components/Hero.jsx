@@ -15,21 +15,25 @@ const Hero = () => {
                     I`m  a                    
                 </span>   <br/>
                 <TypeAnimation sequence={[
-                    "PHP LARAVEL CI",
-                    1000,
-                    "React Redux Vue Vuex",
-                    1000,
-                    "MYSQL, POSTGRES SQL"
+                    "PHP LARAVEL",
+                    2000,
+                    "MERN STACK",
+                    2000,
+                    "MYSQL NoSQL",
+                    2000
+                   
                 ]}
                 wrapper="span"
-                speed={50}
+                speed={10}
                 repeat={Infinity}
                 />
+
+                 <span className='primary-color'>
+                   Developer                
+                </span>
                     
             </h3>  
-            <span className='primary-color'>
-                   Develo                  
-                </span>  
+             
                         
             <p data-aos="fade-down" className='text-green text-2xl sm:text-lg my-6 lg:text-xl'>
                My Name is Prakash Konga  & I have 4 years of Eperience in Web Development

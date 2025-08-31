@@ -1,5 +1,5 @@
 import React from 'react'
-import proj1 from "../assets/1.png";
+import proj1 from "../assets/shopping.png";
 
 
 const Project = () => {
@@ -12,7 +12,7 @@ const Project = () => {
             </div>
     <center>
            <div data-aos="zoom-in" className="col-md-6 col-sm-12 mx-auto">
-             <a href="https://prakash-7382012092.github.io/shopping/" target='_blank' className='btn btn-success bg-green-800 p-[15px] text-white rounded-[10px] cursor-pointer'> <img src={proj1} className='img-fluid h-[400px]'   /></a>
+             <a href="https://prakash-7382012092.github.io/shopping/" target='_blank'> <img src={proj1} className='img-fluid h-[400px]'   /></a>
             <br/>
             <a href="https://prakash-7382012092.github.io/shopping/" target='_blank' className='btn btn-success bg-green-800 p-[15px] text-white rounded-[10px] cursor-pointer'>View Project</a>
 

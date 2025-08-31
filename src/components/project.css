@@ -1,0 +1,9 @@
+/* ✅ Remove the media queries as they are now handled by Tailwind classes in Project.jsx */
+.abc img {
+ border-radius: 12px;
+ transition: transform 0.3s ease-in-out;
+}
+
+.abc img:hover {
+ transform: scale(1.05);
+}

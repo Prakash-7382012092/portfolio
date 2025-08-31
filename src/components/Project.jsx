@@ -1,5 +1,7 @@
 import React from 'react'
 import proj1 from "../assets/shopping.png";
+import proj2 from "../assets/task_todo.png";
+import proj3 from "../assets/caluclator.png";
 
 
 const Project = () => {
@@ -11,10 +13,24 @@ const Project = () => {
     
             </div>
     <center>
-           <div data-aos="zoom-in" className="col-md-6 col-sm-12 mx-auto">
+           <div data-aos="zoom-in" className="col-md-4 col-sm-12 mx-auto">
              <a href="https://prakash-7382012092.github.io/shopping/" target='_blank'> <img src={proj1} className='img-fluid h-[400px]'   /></a>
             <br/>
             <a href="https://prakash-7382012092.github.io/shopping/" target='_blank' className='btn btn-success bg-green-800 p-[15px] text-white rounded-[10px] cursor-pointer'>View Project</a>
+
+           </div>
+
+           <div data-aos="zoom-in" className="col-md-4 col-sm-12 mx-auto">
+             <a href="https://prakash-7382012092.github.io/task_todo/" target='_blank'> <img src={proj2} className='img-fluid h-[400px]'   /></a>
+            <br/>
+            <a href="https://prakash-7382012092.github.io/task_todo/" target='_blank' className='btn btn-success bg-green-800 p-[15px] text-white rounded-[10px] cursor-pointer'>View Project</a>
+
+           </div>
+
+           <div data-aos="zoom-in" className="col-md-4 col-sm-12 mx-auto">
+             <a href="https://prakash-7382012092.github.io/calculator/" target='_blank'> <img src={proj3} className='img-fluid h-[400px]'   /></a>
+            <br/>
+            <a href="https://prakash-7382012092.github.io/calculator/" target='_blank' className='btn btn-success bg-green-800 p-[15px] text-white rounded-[10px] cursor-pointer'>View Project</a>
 
            </div>
             </center>

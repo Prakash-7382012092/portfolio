@@ -12,7 +12,7 @@ const Project = () => {
             </div>
     <center>
            <div data-aos="zoom-in" className="col-md-6 col-sm-12 mx-auto">
-            <img src={proj1} className='img-fluid h-[400px]'   />
+             <a href="https://prakash-7382012092.github.io/shopping/" target='_blank' className='btn btn-success bg-green-800 p-[15px] text-white rounded-[10px] cursor-pointer'> <img src={proj1} className='img-fluid h-[400px]'   /></a>
             <br/>
             <a href="https://prakash-7382012092.github.io/shopping/" target='_blank' className='btn btn-success bg-green-800 p-[15px] text-white rounded-[10px] cursor-pointer'>View Project</a>
 

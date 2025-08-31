@@ -34,7 +34,7 @@ const Skillls = () => {
         </div>
 
 
-<br/>
+
 
 
 
